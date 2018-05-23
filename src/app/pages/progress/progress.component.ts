@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-progress',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgressComponent implements OnInit {
 
-  constructor() { }
+  progress1: number = 50;
+  progress2: number = 25;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
